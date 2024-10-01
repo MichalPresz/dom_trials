@@ -17,3 +17,11 @@ newImg.src =
   "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTfAXO57aVAkHz63QhlrUGfwIpwI9GqdNEl-1hMBBlWgJAk1y71AvhjylR5EC7lULxzMODPhIvsYLwtirc";
 newImg.alt = "Maria Sklodowska";
 section.appendChild(newImg);
+newImg.class = "maria-image";
+
+// remove an element
+
+const removeH2 = document.getElementById("remove-please");
+removeH2.remove();
+
+document.body.style.backgroundColor = "aquamarine";
